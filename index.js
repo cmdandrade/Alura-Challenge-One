@@ -1,5 +1,7 @@
-var saiTexto 
-var entraTexto = document.getElementById("entraTexto")
+var saiTexto;
+var entraTexto= document.createElement("entraTexto");
+var tamanho;
+var caractere=0;
 
 
 
@@ -13,8 +15,17 @@ botaoCopia.addEventListener('click', fncopia)
 
 
 function fncripto(){
-	//alert(entraTexto.value);
-	saiTexto="descripto";
+	entraTexto=document.getElementById("entraTexto").value;
+	saiTexto=entraTexto;
+	tamanho=(entraTexto.length);
+	while(caractere<=tamanho){
+		if(entraTexto[caractere]=="a"){
+			saiTexto=saiTexto.replace("a","ai");
+			caractere++;	
+			console.log(caractere);
+			}
+		else{caractere++; console.log(caractere)}
+	}
 	document.getElementById("saiTexto").innerHTML = saiTexto;
 	return
 }
