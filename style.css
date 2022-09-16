@@ -1,0 +1,224 @@
+
+header {
+
+	padding: 40px;
+}
+
+body{
+	/* Decodificador - 1 Desktop */
+	position: relative;
+	width: 1440px;
+	height: 1024px;
+
+	/* Light blue/light-blue-100 */
+
+	background: #F3F5FC	
+}
+
+
+.caixa {
+	/* Logo */
+	width: 120px;
+	height: 48px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+
+#entraTexto{
+ position: absolute;
+ left: 40px;
+ width:930px;
+ height:640px;
+ padding-left:  20px;
+ background-color: transparent;
+ border: 0px;
+
+ font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+	color: #0A3871;
+}
+
+#saiTexto{
+	position: absolute;
+	width: 340px;
+	height: 740px;
+	left: 1032px;
+	top: 40px;
+	padding-left:  10px;
+
+	background: #FFFFFF;
+	/* shadow */
+
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+	border-radius: 32px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 150%;
+	/* or 36px */
+
+
+	/* Gray/gray-400 */
+
+	color: #495057;
+}
+
+div.retanguloBotao{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 24px;
+
+	position: absolute;
+	width: 680px;
+	height: 67px;
+	left: 240px;
+	top: 800px;
+}
+
+#botaoCripto{
+	box-sizing: border-box;
+	/*
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;*/
+	padding: 24px;
+	gap: 8px;
+
+	width: 328px;
+	height: 67px;
+
+	/* Dark blue/dark-blue-300 */
+
+	background: #0A3871;
+	border-radius: 24px;
+
+	/* Inside auto layout 
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;*/
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 19px;
+	text-align: center;
+
+	/* White */
+
+	color: #FFFFFF;
+}
+
+#botaoDescripto{
+	box-sizing: border-box;
+
+	/* Auto layout 
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;*/
+	padding: 24px;
+	gap: 8px;
+
+	width: 328px;
+	height: 67px;
+
+	/* Dark blue/dark-blue-300 */
+
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+
+	/* Inside auto layout 
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;*/
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 19px;
+	text-align: center;
+
+	/* Dark blue/dark-blue-300 */
+
+	color: #0A3871;
+}
+
+
+#botaoCopia{
+	box-sizing: border-box;
+
+	/* Auto layout 
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;*/
+	padding: 24px;
+	gap: 8px;
+
+	position: absolute;
+	width: 336px;
+	height: 67px;
+	left: 1032px;
+	top: 800px;
+
+	/* Dark blue/dark-blue-300 */
+
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+
+	/* Inside auto layout 
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;*/
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 19px;
+	text-align: center;
+
+	/* Dark blue/dark-blue-300 */
+
+	color: #0A3871;
+}
+
+.rodape{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 24px;
+
+	position: absolute;
+	width: 1400px;
+	height: 130px;
+	left: 40px;
+	top: 890px;
+    background-color: #0A3871;;
+ border: 0px;
+
+ font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #FFFFF;
+
+}
+
