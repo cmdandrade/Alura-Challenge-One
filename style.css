@@ -28,6 +28,14 @@ body{
 	flex-grow: 0;
 }
 
+#imagemcripto{
+	position: absolute;
+	left: 1050px;
+	top: 100px;
+
+	background: #FFFFFF;
+}
+
 
 #entraTexto{
  position: absolute;
